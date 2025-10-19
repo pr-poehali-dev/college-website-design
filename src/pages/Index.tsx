@@ -177,11 +177,11 @@ const Index = () => {
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center space-x-2 bg-white rounded-full px-6 py-3 shadow-md">
                   <Icon name="CheckCircle" className="text-green-500" size={24} />
-                  <span className="font-semibold">Гарантия трудоустройства</span>
+                  <span className="font-semibold text-gray-900">Гарантия трудоустройства</span>
                 </div>
                 <div className="flex items-center space-x-2 bg-white rounded-full px-6 py-3 shadow-md">
                   <Icon name="Wallet" className="text-blue-500" size={24} />
-                  <span className="font-semibold">Доступная цена</span>
+                  <span className="font-semibold text-gray-900">Доступная цена</span>
                 </div>
               </div>
               <Button
