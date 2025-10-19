@@ -129,8 +129,8 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
-      <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-md">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+      <nav className="sticky top-0 z-50 bg-slate-800/90 backdrop-blur-md shadow-md border-b border-slate-700">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
@@ -153,7 +153,7 @@ const Index = () => {
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
                   className={`font-medium transition-colors hover:text-primary ${
-                    activeSection === item.id ? 'text-primary' : 'text-gray-600'
+                    activeSection === item.id ? 'text-primary' : 'text-gray-300'
                   }`}
                 >
                   {item.label}
@@ -171,7 +171,7 @@ const Index = () => {
               <h1 className="text-5xl md:text-6xl font-heading font-extrabold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent leading-tight">
                 Образование для успешной карьеры
               </h1>
-              <p className="text-xl text-gray-700 mb-8">
+              <p className="text-xl text-gray-300 mb-8">
                 Современные специальности, практический опыт и гарантированное трудоустройство
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
@@ -246,10 +246,10 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="about" className="py-20 px-4 bg-white/50">
+      <section id="about" className="py-20 px-4 bg-slate-800/50">
         <div className="container mx-auto">
           <h2 className="text-4xl font-heading font-bold text-center mb-4">О колледже</h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+          <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
             Коммерческий колледж «Перспектива» - современное образовательное учреждение с 15-летней историей
           </p>
 
@@ -454,7 +454,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="students" className="py-20 px-4 bg-white/50">
+      <section id="students" className="py-20 px-4 bg-slate-800/50">
         <div className="container mx-auto">
           <h2 className="text-4xl font-heading font-bold text-center mb-12">Студентам</h2>
 
@@ -697,7 +697,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="news" className="py-20 px-4 bg-white/50">
+      <section id="news" className="py-20 px-4 bg-slate-800/50">
         <div className="container mx-auto">
           <h2 className="text-4xl font-heading font-bold text-center mb-12">Новости и события</h2>
 
@@ -778,7 +778,7 @@ const Index = () => {
       <section id="life" className="py-20 px-4">
         <div className="container mx-auto">
           <h2 className="text-4xl font-heading font-bold text-center mb-4">Студенты вне учёбы</h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+          <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
             Насыщенная студенческая жизнь - спорт, творчество, мероприятия
           </p>
 
